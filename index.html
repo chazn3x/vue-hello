@@ -9,7 +9,9 @@
 <body>
     <div id="root">
         <h1>{{text}}</h1>
-        <img :src="img" alt="">
+        <img :src="img" alt="Immagine random">
+        <br>
+        <button @click="changeImg">Nuova immagine</button>
     </div>
     <!-- development version, includes helpful console warnings -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
